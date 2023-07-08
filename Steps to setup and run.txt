@@ -1,0 +1,9 @@
+Steps to setup and run:
+
+# Note - The cell execution requires a lot of resources and might fail on low end PCs. Please Run in Google Colab if having Low end PC.
+1. Install the requirements using the command - " pip install tensorflow opencv-python "
+2. Run all the cells of SAD_Model_Creation.ipynb for Model Creation and training.
+3. Run all the cells of SAD_Model_Prediction.ipynb for Predicting the Class of the video.
+4. For Single action detection run predict_single_action(video_file_path, SEQUENCE_LENGTH) function with video path and sequence         length as input.
+5. For prediction of actions in the whole video run predict_on_video(video_file_path, output_file_path, SEQUENCE_LENGTH) function with   input video path, output video path, sequence length as input, an output video file with predicted classes on top of the video will be saved in the output path.
+6. Model link is given in the code.
